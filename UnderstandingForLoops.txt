@@ -1,0 +1,155 @@
+CODE 1:
+
+
+n=5;
+for(i=0;i<n;i++){
+	//----STARING OF FOR LOOP
+	printf("%d",i);
+	//-----ENDING OF FOR LOOP
+}
+
+step1: i is initialized to 1 (i=1)
+step2: checks if i<n.if True enter inside the for block.if False comes out of for loop.
+	 Here i=0 so, as 0<5 is true so enter inside the for block
+step3: prints value at i
+	 Here i is 0 as prints 0 in output screen-----0
+step4: As we are at end of for block, now incrementing the value of i by 1 takes palce
+	 So i=i+1
+	 i.e., i=1
+step5: checks if i<n.if True enter inside the for block.if False comes out of for loop.
+	 Here i=1 so, as 1<5 is true so enter inside the for block
+step6: prints value at i
+	 Here i is 1 as prints 1 in output screen------1
+step7:  As we are at end of for block, now incrementing the value of i by 1 takes palce
+	 So i=i+1
+	 i.e., i=2
+step8: checks if i<n.if True enter inside the for block.if False comes out of for loop.
+	 Here i=2 so, as 2<5 is true so enter inside the for block
+step9: prints value at i
+	 Here i is 2 as prints 2 in output screen-----2
+step10: As we are at end of for block, now incrementing the value of i by 1 takes palce
+	 So i=i+1
+	 i.e., i=3
+step11: checks if i<n.if True enter inside the for block.if False comes out of for loop.
+	 Here i=3 so, as 3<5 is true so enter inside the for block
+step12: prints value at i
+	 Here i is 3 as prints 3 in output screen-----3
+step13: As we are at end of for block, now incrementing the value of i by 1 takes palce
+	 So i=i+1
+	 i.e., i=4
+step14: checks if i<n.if True enter inside the for block.if False comes out of for loop.
+	 Here i=4 so, as 4<5 is true so enter inside the for block
+step15: prints value at i
+	 Here i is 4 as prints 4 in output screen---4
+step16: As we are at end of for block, now incrementing the value of i by 1 takes palce
+	 So i=i+1
+	 i.e., i=5
+step17: checks if i<n.if True enter inside the for block.if False comes out of for loop.
+	 Here i=5 so, as 5<5 is False so control comes out of the loop
+step18: End
+
+o/p:
+0
+1
+2
+3
+4
+
+the abode code 1 is written on python as shoen below:
+
+for i in range(5):
+	print(i)
+
+
+
+CODE 2:
+
+for(i=0;i<3;i++){	//----OUTER FOR LOOP
+	//----INSIDE OUTER FOR LOOP
+	for(j=0;j<2;j++){	//------INNER FOR LOOP
+		//----INSIDE INNER FOR LOOP
+		printf("%d",i+j);
+		//----END OF INNER FOR LOOP
+	}
+	//----OUTSIDE THE INNER FOR LOOP
+	//----END OF OUTER FOR LOOP
+}
+//----OUTSIDE THE OUTER FOR LOOP
+
+step1: i=0
+step2: checks the condition of OUTER FOR LOOP i.e.,i<3.If true entres INSIDE OUTER FOR LOOP. If false then comes OUTSIDE THE OUTER FOR LOOP
+	 here i=0. so, as 0<3 is true enters INSIDE OUTER FOR LOOP
+step3: Here, in INSIDE OUTER FOR LOOP, we have the inner for loop
+	 so,j=0
+step4: checks the condition of INNER FOR LOOP i.e.,j<2. IF true then enters INSIDE INNER FOR LOOP.IF false then comes out of INNER FOR LOOP
+	 here j=0. So, as 0<2 is True,so enters INSIDE INNER FOR LOOP
+step5: Here in INSIDE INNER FOR LOOP we print value of i+j
+	 as i=0,j=0 i+j=0 so print 0 -----print 0
+step6: As,we are at END OF INNER FOR LOOP, we increment the value of j by 1
+	 i.e., j=j+1 so, j=1
+step7: checks the condition of INNER FOR LOOP i.e.,j<2. IF true then enters INSIDE INNER FOR LOOP.IF false then comes out of INNER FOR LOOP
+	 here j=1. So, as 1<2 is True,so enters INSIDE INNER FOR LOOP
+step8: Here in INSIDE INNER FOR LOOP we print value of i+j
+	 as i=0,j=1 i+j=1 so print 1 -----print 1
+step9: As,we are at END OF INNER FOR LOOP, we increment the value of j by 1
+	 i.e., j=j+1 so, j=2
+step10: checks the condition of INNER FOR LOOP i.e.,j<2. IF true then enters INSIDE INNER FOR LOOP.IF false then comes out of INNER FOR LOOP
+	 here j=2. So, as 2<2 is False,so it comes OUTSIDE THE INNER FOR LOOP
+step11: As,we are at END OF OUTER FOR LOOP, we increment the value of i by 1
+	 i.e., i=i+1 so, i=1
+step12: checks the condition of OUTER FOR LOOP i.e.,i<3.If true entres INSIDE OUTER FOR LOOP. If false then comes OUTSIDE THE OUTER FOR LOOP
+	 here i=1. so, as 1<3 is true enters INSIDE OUTER FOR LOOP
+step13: Here, in INSIDE OUTER FOR LOOP, we have the inner for loop
+	 so,j=0
+step14: Here in INSIDE INNER FOR LOOP we print value of i+j
+	 as i=1,j=0 i+j=1 so print 1 -----print 1
+step15: As,we are at END OF INNER FOR LOOP, we increment the value of j by 1
+	 i.e., j=j+1 so, j=1
+step16: checks the condition of INNER FOR LOOP i.e.,j<2. IF true then enters INSIDE INNER FOR LOOP.IF false then comes out of INNER FOR LOOP
+	 here j=1. So, as 1<2 is True,so enters INSIDE INNER FOR LOOP
+step17: Here in INSIDE INNER FOR LOOP we print value of i+j
+	 as i=1,j=1 i+j=2 so print 2 -----print 2
+step18: As,we are at END OF INNER FOR LOOP, we increment the value of j by 1
+	 i.e., j=j+1 so, j=2
+step19: checks the condition of INNER FOR LOOP i.e.,j<2. IF true then enters INSIDE INNER FOR LOOP.IF false then comes out of INNER FOR LOOP
+	 here j=2. So, as 2<2 is False,so it comes OUTSIDE THE INNER FOR LOOP
+step20:  As,we are at END OF OUTER FOR LOOP, we increment the value of i by 1
+	 i.e., i=i+1 so, i=2
+step21: checks the condition of OUTER FOR LOOP i.e.,i<3.If true entres INSIDE OUTER FOR LOOP. If false then comes OUTSIDE THE OUTER FOR LOOP
+	 here i=2. so, as 2<3 is true enters INSIDE OUTER FOR LOOP
+step22: Here, in INSIDE OUTER FOR LOOP, we have the inner for loop
+	 so,j=0
+step23: Here in INSIDE INNER FOR LOOP we print value of i+j
+	 as i=2,j=0 i+j=2 so print 2 -----print 2
+step24: As,we are at END OF INNER FOR LOOP, we increment the value of j by 1
+	 i.e., j=j+1 so, j=1
+step25: checks the condition of INNER FOR LOOP i.e.,j<2. IF true then enters INSIDE INNER FOR LOOP.IF false then comes out of INNER FOR LOOP
+	 here j=1. So, as 1<2 is True,so enters INSIDE INNER FOR LOOP
+step26: Here in INSIDE INNER FOR LOOP we print value of i+j
+	 as i=2,j=1 i+j=3 so print 3 -----print 3
+step27:  As,we are at END OF INNER FOR LOOP, we increment the value of j by 1
+	 i.e., j=j+1 so, j=2
+step28: checks the condition of INNER FOR LOOP i.e.,j<2. IF true then enters INSIDE INNER FOR LOOP.IF false then comes out of INNER FOR LOOP
+	 here j=2. So, as 2<2 is False,so it comes OUTSIDE THE INNER FOR LOOP
+step29: As,we are at END OF OUTER FOR LOOP, we increment the value of i by 1
+	 i.e., i=i+1 so, i=3
+step 30: checks the condition of OUTER FOR LOOP i.e.,i<3.If true entres INSIDE OUTER FOR LOOP. If false then comes OUTSIDE THE OUTER FOR LOOP
+	 here i=3. so, as 3<3 is False it comes OUTSIDE THE OUTER FOR LOOP
+step31: END
+
+o/p:
+0
+1
+1
+2
+2
+3
+
+The above code is writen in python as shown below
+
+for i in range(3):
+	for j in range(2):
+		print(i+j)
+
+
+ 
